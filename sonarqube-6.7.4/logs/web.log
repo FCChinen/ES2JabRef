@@ -1,0 +1,418 @@
+2018.06.19 10:15:08 INFO  web[][o.s.p.ProcessEntryPoint] Starting web
+2018.06.19 10:15:09 INFO  web[][o.a.t.u.n.NioSelectorPool] Using a shared selector for servlet write/read
+2018.06.19 10:15:09 INFO  web[][o.e.p.PluginsService] no modules loaded
+2018.06.19 10:15:09 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2018.06.19 10:15:09 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2018.06.19 10:15:09 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2018.06.19 10:15:09 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2018.06.19 10:15:11 INFO  web[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2018.06.19 10:15:11 INFO  web[][o.s.s.p.LogServerVersion] SonarQube Server / 6.7.4.38452 / b62b59da1adf991c41ed0730684f813d4116f6cc
+2018.06.19 10:15:11 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Starting embedded database on port 9092 with url jdbc:h2:tcp://127.0.0.1:9092/sonar
+2018.06.19 10:15:11 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database started. Data stored in: /home/hideki/ES2JabRef/sonarqube-6.7.4/data
+2018.06.19 10:15:11 INFO  web[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2018.06.19 10:15:12 WARN  web[][o.s.d.DatabaseChecker] H2 database should be used for evaluation purpose only
+2018.06.19 10:15:13 INFO  web[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /home/hideki/ES2JabRef/sonarqube-6.7.4
+2018.06.19 10:15:13 INFO  web[][o.s.s.u.SystemPasscodeImpl] System authentication by passcode is disabled
+2018.06.19 10:15:13 INFO  web[][o.s.s.p.d.m.h.MigrationHistoryTableImpl] Creating table schema_migrations
+2018.06.19 10:15:13 INFO  web[][o.s.s.p.ServerPluginRepository] Plugin SonarXML [xml] installed
+2018.06.19 10:15:13 INFO  web[][o.s.s.p.ServerPluginRepository] Plugin Flex [flex] installed
+2018.06.19 10:15:13 INFO  web[][o.s.s.p.ServerPluginRepository] Plugin SonarJS [javascript] installed
+2018.06.19 10:15:13 INFO  web[][o.s.s.p.ServerPluginRepository] Plugin SonarPHP [php] installed
+2018.06.19 10:15:13 INFO  web[][o.s.s.p.ServerPluginRepository] Plugin SonarC# [csharp] installed
+2018.06.19 10:15:13 INFO  web[][o.s.s.p.ServerPluginRepository] Plugin SonarPython [python] installed
+2018.06.19 10:15:13 INFO  web[][o.s.s.p.ServerPluginRepository] Plugin SonarTS [typescript] installed
+2018.06.19 10:15:13 INFO  web[][o.s.s.p.ServerPluginRepository] Plugin SonarQube :: Plugins :: SCM :: SVN [scmsvn] installed
+2018.06.19 10:15:13 INFO  web[][o.s.s.p.ServerPluginRepository] Plugin SonarJava [java] installed
+2018.06.19 10:15:13 INFO  web[][o.s.s.p.ServerPluginRepository] Plugin SonarQube :: Plugins :: SCM :: Git [scmgit] installed
+2018.06.19 10:15:13 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin Flex / 2.3 / 79167f762219bea1fd181ff5ef6ca4b34abd1675
+2018.06.19 10:15:13 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarC# / 6.5.0.3766 / 6011a1e9fb002edb044ae3092d92bcfb7d9d8a2d
+2018.06.19 10:15:13 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJS / 3.2.0.5506 / 86da09565f891121df248835665f5d8ed98772b6
+2018.06.19 10:15:13 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJava / 4.15.0.12310 / 572454b93016ec73a53fe0e07b2ffdc356d21ba9
+2018.06.19 10:15:13 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarPHP / 2.11.0.2485 / 741861a29e5f9a26c6c99c06268facb6c4f4a882
+2018.06.19 10:15:13 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarPython / 1.8.0.1496 / 3fe3bc4d0273a5721ea2fb368dc45b1bb82fede3
+2018.06.19 10:15:13 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarQube :: Plugins :: SCM :: Git / 1.3.0.869 / 4da53e3f9e55f4f2e5796625cb0c5768ed152079
+2018.06.19 10:15:13 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarQube :: Plugins :: SCM :: SVN / 1.6.0.860 / 2111fdbd1dddda4ad6d4ed6486fd0b18c1010d3b
+2018.06.19 10:15:13 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarTS / 1.1.0.1079 / 042c9e65239a47d92d305f9767f730b3cc1e5ed3
+2018.06.19 10:15:13 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarXML / 1.4.3.1027 / 39588245cecf538bb27be4e496ff303b0143d20b
+2018.06.19 10:15:13 INFO  web[][o.s.s.p.d.m.AutoDbMigration] Automatically perform DB migration on fresh install
+2018.06.19 10:15:13 INFO  web[][o.s.s.p.Platform] Database has been automatically updated
+2018.06.19 10:15:13 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@5d71146c [pattern=UrlPattern{inclusions=[/api/system/migrate_db/*, ...], exclusions=[/api/properties*, ...]}]
+2018.06.19 10:15:14 INFO  web[][o.s.s.a.EmbeddedTomcat] HTTP connector enabled on port 9000
+2018.06.19 10:15:14 INFO  web[][o.s.s.p.UpdateCenterClient] Update center: https://update.sonarsource.org/update-center.properties (no proxy)
+2018.06.19 10:15:15 INFO  web[][o.s.s.e.IndexCreator] Create index metadatas
+2018.06.19 10:15:16 INFO  web[][o.s.s.e.IndexCreator] Create type metadatas/metadata
+2018.06.19 10:15:16 INFO  web[][o.s.s.e.IndexCreator] Create index components
+2018.06.19 10:15:17 INFO  web[][o.s.s.e.IndexCreator] Create type components/component
+2018.06.19 10:15:18 INFO  web[][o.s.s.e.IndexCreator] Create type components/authorization
+2018.06.19 10:15:18 INFO  web[][o.s.s.e.IndexCreator] Create index tests
+2018.06.19 10:15:20 INFO  web[][o.s.s.e.IndexCreator] Create type tests/test
+2018.06.19 10:15:20 INFO  web[][o.s.s.e.IndexCreator] Create index projectmeasures
+2018.06.19 10:15:21 INFO  web[][o.s.s.e.IndexCreator] Create type projectmeasures/projectmeasure
+2018.06.19 10:15:21 INFO  web[][o.s.s.e.IndexCreator] Create type projectmeasures/authorization
+2018.06.19 10:15:21 INFO  web[][o.s.s.e.IndexCreator] Create index rules
+2018.06.19 10:15:22 INFO  web[][o.s.s.e.IndexCreator] Create type rules/activeRule
+2018.06.19 10:15:22 INFO  web[][o.s.s.e.IndexCreator] Create type rules/ruleExtension
+2018.06.19 10:15:22 INFO  web[][o.s.s.e.IndexCreator] Create type rules/rule
+2018.06.19 10:15:22 INFO  web[][o.s.s.e.IndexCreator] Create index issues
+2018.06.19 10:15:24 INFO  web[][o.s.s.e.IndexCreator] Create type issues/issue
+2018.06.19 10:15:24 INFO  web[][o.s.s.e.IndexCreator] Create type issues/authorization
+2018.06.19 10:15:24 INFO  web[][o.s.s.e.IndexCreator] Create index users
+2018.06.19 10:15:24 INFO  web[][o.s.s.e.IndexCreator] Create type users/user
+2018.06.19 10:15:25 INFO  web[][o.s.s.e.IndexCreator] Create index views
+2018.06.19 10:15:26 INFO  web[][o.s.s.e.IndexCreator] Create type views/view
+2018.06.19 10:15:26 INFO  web[][o.s.s.s.LogServerId] Server ID: AWQYL1ru-ZAsWoVXPpqP
+2018.06.19 10:15:26 INFO  web[][o.s.s.t.TelemetryDaemon] Sharing of SonarQube statistics is enabled.
+2018.06.19 10:15:26 INFO  web[][o.s.s.n.NotificationDaemon] Notification service started (delay 60 sec.)
+2018.06.19 10:15:27 INFO  web[][o.s.s.s.GeneratePluginIndex] Generate scanner plugin index
+2018.06.19 10:15:27 INFO  web[][o.s.s.s.RegisterPlugins] Register plugins
+2018.06.19 10:15:27 INFO  web[][o.s.s.s.RegisterMetrics] Register metrics
+2018.06.19 10:15:27 INFO  web[][o.s.s.r.RegisterRules] Register rules
+2018.06.19 10:15:34 INFO  web[][o.s.s.q.BuiltInQProfileRepositoryImpl] Load quality profiles
+2018.06.19 10:15:34 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register quality profiles
+2018.06.19 10:15:34 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile cs/Sonar way
+2018.06.19 10:15:36 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile java/Sonar way
+2018.06.19 10:15:36 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile flex/Sonar way
+2018.06.19 10:15:37 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile xml/Sonar way
+2018.06.19 10:15:37 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile js/Sonar way Recommended
+2018.06.19 10:15:37 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile js/Sonar way
+2018.06.19 10:15:37 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile php/Sonar way
+2018.06.19 10:15:37 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile php/PSR-2
+2018.06.19 10:15:37 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile php/Drupal
+2018.06.19 10:15:38 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile py/Sonar way
+2018.06.19 10:15:38 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile ts/Sonar way
+2018.06.19 10:15:38 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile ts/Sonar way recommended
+2018.06.19 10:15:38 INFO  web[][o.s.s.s.RegisterPermissionTemplates] Register permission templates
+2018.06.19 10:15:38 INFO  web[][o.s.s.s.RenameDeprecatedPropertyKeys] Rename deprecated property keys
+2018.06.19 10:15:38 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@3492de9c [pattern=UrlPattern{inclusions=[/api/measures/component/*, ...], exclusions=[/api/properties*, ...]}]
+2018.06.19 10:15:38 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.DeprecatedPropertiesWsFilter@3d293438 [pattern=UrlPattern{inclusions=[/api/properties/*], exclusions=[]}]
+2018.06.19 10:15:38 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceReroutingFilter@24e8ed64 [pattern=UrlPattern{inclusions=[/api/components/bulk_update_key, ...], exclusions=[]}]
+2018.06.19 10:15:38 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.InitFilter@3b10221a [pattern=UrlPattern{inclusions=[/sessions/init/*], exclusions=[]}]
+2018.06.19 10:15:38 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.OAuth2CallbackFilter@337b32fb [pattern=UrlPattern{inclusions=[/oauth2/callback/*], exclusions=[]}]
+2018.06.19 10:15:38 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LoginAction@7d08ce92 [pattern=UrlPattern{inclusions=[/api/authentication/login], exclusions=[]}]
+2018.06.19 10:15:38 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LogoutAction@1cac8ec8 [pattern=UrlPattern{inclusions=[/api/authentication/logout], exclusions=[]}]
+2018.06.19 10:15:38 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.ValidateAction@71abf484 [pattern=UrlPattern{inclusions=[/api/authentication/validate], exclusions=[]}]
+2018.06.19 10:15:38 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [rules/activeRule] ...
+2018.06.19 10:15:41 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [rules/activeRule] done | time=2512ms
+2018.06.19 10:15:41 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of types [rules/ruleExtension],[rules/rule] ...
+2018.06.19 10:15:44 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of types [rules/ruleExtension],[rules/rule] done | time=3535ms
+2018.06.19 10:15:44 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [users/user] ...
+2018.06.19 10:15:45 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [users/user] done | time=959ms
+2018.06.19 10:15:45 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [components/component] ...
+2018.06.19 10:15:45 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [components/component] done | time=239ms
+2018.06.19 10:15:45 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [views/view] ...
+2018.06.19 10:15:46 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [views/view] done | time=238ms
+2018.06.19 10:15:46 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [issues/issue] ...
+2018.06.19 10:15:46 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [issues/issue] done | time=218ms
+2018.06.19 10:15:46 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of types [components/authorization],[issues/authorization],[projectmeasures/authorization] ...
+2018.06.19 10:15:46 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of types [components/authorization],[issues/authorization],[projectmeasures/authorization] done | time=211ms
+2018.06.19 10:15:46 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [tests/test] ...
+2018.06.19 10:15:48 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [tests/test] done | time=1944ms
+2018.06.19 10:15:48 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [projectmeasures/projectmeasure] ...
+2018.06.19 10:15:48 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [projectmeasures/projectmeasure] done | time=232ms
+2018.06.19 10:15:48 INFO  web[][o.s.s.p.Platform] WebServer is operational
+2018.06.19 10:20:23 INFO  web[][o.s.p.StopWatcher] Stopping process
+2018.06.19 10:20:45 INFO  web[][o.s.p.ProcessEntryPoint] Starting web
+2018.06.19 10:20:46 INFO  web[][o.a.t.u.n.NioSelectorPool] Using a shared selector for servlet write/read
+2018.06.19 10:20:46 INFO  web[][o.e.p.PluginsService] no modules loaded
+2018.06.19 10:20:46 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2018.06.19 10:20:46 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2018.06.19 10:20:46 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2018.06.19 10:20:46 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2018.06.19 10:20:47 INFO  web[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2018.06.19 10:20:47 INFO  web[][o.s.s.p.LogServerVersion] SonarQube Server / 6.7.4.38452 / b62b59da1adf991c41ed0730684f813d4116f6cc
+2018.06.19 10:20:48 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Starting embedded database on port 9092 with url jdbc:h2:tcp://127.0.0.1:9092/sonar
+2018.06.19 10:20:48 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database started. Data stored in: /home/hideki/ES2JabRef/sonarqube-6.7.4/data
+2018.06.19 10:20:48 INFO  web[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2018.06.19 10:20:49 WARN  web[][o.s.d.DatabaseChecker] H2 database should be used for evaluation purpose only
+2018.06.19 10:20:50 INFO  web[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /home/hideki/ES2JabRef/sonarqube-6.7.4
+2018.06.19 10:20:50 INFO  web[][o.s.s.u.SystemPasscodeImpl] System authentication by passcode is disabled
+2018.06.19 10:20:50 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin Flex / 2.3 / 79167f762219bea1fd181ff5ef6ca4b34abd1675
+2018.06.19 10:20:50 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarC# / 6.5.0.3766 / 6011a1e9fb002edb044ae3092d92bcfb7d9d8a2d
+2018.06.19 10:20:50 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJS / 3.2.0.5506 / 86da09565f891121df248835665f5d8ed98772b6
+2018.06.19 10:20:50 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJava / 4.15.0.12310 / 572454b93016ec73a53fe0e07b2ffdc356d21ba9
+2018.06.19 10:20:50 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarPHP / 2.11.0.2485 / 741861a29e5f9a26c6c99c06268facb6c4f4a882
+2018.06.19 10:20:50 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarPython / 1.8.0.1496 / 3fe3bc4d0273a5721ea2fb368dc45b1bb82fede3
+2018.06.19 10:20:50 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarQube :: Plugins :: SCM :: Git / 1.3.0.869 / 4da53e3f9e55f4f2e5796625cb0c5768ed152079
+2018.06.19 10:20:50 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarQube :: Plugins :: SCM :: SVN / 1.6.0.860 / 2111fdbd1dddda4ad6d4ed6486fd0b18c1010d3b
+2018.06.19 10:20:50 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarTS / 1.1.0.1079 / 042c9e65239a47d92d305f9767f730b3cc1e5ed3
+2018.06.19 10:20:50 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarXML / 1.4.3.1027 / 39588245cecf538bb27be4e496ff303b0143d20b
+2018.06.19 10:20:50 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@77408019 [pattern=UrlPattern{inclusions=[/api/system/migrate_db/*, ...], exclusions=[/api/properties*, ...]}]
+2018.06.19 10:20:51 INFO  web[][o.s.s.a.EmbeddedTomcat] HTTP connector enabled on port 9000
+2018.06.19 10:20:51 INFO  web[][o.s.s.p.UpdateCenterClient] Update center: https://update.sonarsource.org/update-center.properties (no proxy)
+2018.06.19 10:20:52 INFO  web[][o.s.s.s.LogServerId] Server ID: AWQYL1ru-ZAsWoVXPpqP
+2018.06.19 10:20:52 INFO  web[][o.s.s.t.TelemetryDaemon] Sharing of SonarQube statistics is enabled.
+2018.06.19 10:20:52 INFO  web[][o.s.s.n.NotificationDaemon] Notification service started (delay 60 sec.)
+2018.06.19 10:20:52 INFO  web[][o.s.s.s.GeneratePluginIndex] Generate scanner plugin index
+2018.06.19 10:20:53 INFO  web[][o.s.s.s.RegisterPlugins] Register plugins
+2018.06.19 10:20:53 INFO  web[][o.s.s.s.RegisterMetrics] Register metrics
+2018.06.19 10:20:53 INFO  web[][o.s.s.r.RegisterRules] Register rules
+2018.06.19 10:20:57 INFO  web[][o.s.s.q.BuiltInQProfileRepositoryImpl] Load quality profiles
+2018.06.19 10:20:57 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register quality profiles
+2018.06.19 10:20:57 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile cs/Sonar way
+2018.06.19 10:20:57 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile java/Sonar way
+2018.06.19 10:20:58 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile flex/Sonar way
+2018.06.19 10:20:58 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile xml/Sonar way
+2018.06.19 10:20:58 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile js/Sonar way Recommended
+2018.06.19 10:20:58 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile js/Sonar way
+2018.06.19 10:20:58 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile php/Sonar way
+2018.06.19 10:20:58 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile php/PSR-2
+2018.06.19 10:20:58 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile php/Drupal
+2018.06.19 10:20:58 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile py/Sonar way
+2018.06.19 10:20:58 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile ts/Sonar way
+2018.06.19 10:20:58 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile ts/Sonar way recommended
+2018.06.19 10:20:58 INFO  web[][o.s.s.s.RegisterPermissionTemplates] Register permission templates
+2018.06.19 10:20:58 INFO  web[][o.s.s.s.RenameDeprecatedPropertyKeys] Rename deprecated property keys
+2018.06.19 10:20:58 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@31090532 [pattern=UrlPattern{inclusions=[/api/measures/component/*, ...], exclusions=[/api/properties*, ...]}]
+2018.06.19 10:20:58 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.DeprecatedPropertiesWsFilter@8e4e793 [pattern=UrlPattern{inclusions=[/api/properties/*], exclusions=[]}]
+2018.06.19 10:20:58 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceReroutingFilter@71ef6fc7 [pattern=UrlPattern{inclusions=[/api/components/bulk_update_key, ...], exclusions=[]}]
+2018.06.19 10:20:58 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.InitFilter@2642e23 [pattern=UrlPattern{inclusions=[/sessions/init/*], exclusions=[]}]
+2018.06.19 10:20:58 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.OAuth2CallbackFilter@60f022ef [pattern=UrlPattern{inclusions=[/oauth2/callback/*], exclusions=[]}]
+2018.06.19 10:20:58 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LoginAction@5bf64c8c [pattern=UrlPattern{inclusions=[/api/authentication/login], exclusions=[]}]
+2018.06.19 10:20:58 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LogoutAction@fe7acd0 [pattern=UrlPattern{inclusions=[/api/authentication/logout], exclusions=[]}]
+2018.06.19 10:20:58 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.ValidateAction@1da3317e [pattern=UrlPattern{inclusions=[/api/authentication/validate], exclusions=[]}]
+2018.06.19 10:20:58 INFO  web[][o.s.s.p.Platform] WebServer is operational
+2018.06.19 10:31:33 ERROR web[][o.s.s.p.w.RootFilter] Processing of request /css/sonar.3398ab84.css failed
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: Broken pipe
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:356)
+	at org.apache.catalina.connector.OutputBuffer.appendByteArray(OutputBuffer.java:785)
+	at org.apache.catalina.connector.OutputBuffer.append(OutputBuffer.java:714)
+	at org.apache.catalina.connector.OutputBuffer.writeBytes(OutputBuffer.java:391)
+	at org.apache.catalina.connector.OutputBuffer.write(OutputBuffer.java:369)
+	at org.apache.catalina.connector.CoyoteOutputStream.write(CoyoteOutputStream.java:96)
+	at org.apache.catalina.connector.CoyoteOutputStream.write(CoyoteOutputStream.java:89)
+	at org.apache.catalina.servlets.DefaultServlet.serveResource(DefaultServlet.java:1007)
+	at org.apache.catalina.servlets.DefaultServlet.doGet(DefaultServlet.java:438)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.apache.catalina.servlets.DefaultServlet.service(DefaultServlet.java:418)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.sonar.server.platform.web.WebPagesFilter.doFilter(WebPagesFilter.java:66)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.sonar.server.platform.web.MasterServletFilter$GodFilterChain.doFilter(MasterServletFilter.java:128)
+	at org.sonar.server.platform.web.MasterServletFilter.doFilter(MasterServletFilter.java:95)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.sonar.server.user.UserSessionFilter.doFilter(UserSessionFilter.java:87)
+	at org.sonar.server.user.UserSessionFilter.doFilter(UserSessionFilter.java:71)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.sonar.server.platform.web.SecurityServletFilter.doHttpFilter(SecurityServletFilter.java:72)
+	at org.sonar.server.platform.web.SecurityServletFilter.doFilter(SecurityServletFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.sonar.server.platform.web.RedirectFilter.doFilter(RedirectFilter.java:61)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.sonar.server.platform.web.requestid.RequestIdFilter.doFilter(RequestIdFilter.java:63)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.sonar.server.platform.web.RootFilter.doFilter(RootFilter.java:62)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at ch.qos.logback.access.tomcat.LogbackValve.invoke(LogbackValve.java:256)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:134)
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:157)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1267)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:670)
+	at org.apache.tomcat.util.net.SocketWrapperBase.writeBlocking(SocketWrapperBase.java:450)
+	at org.apache.tomcat.util.net.SocketWrapperBase.write(SocketWrapperBase.java:388)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.doWrite(Http11OutputBuffer.java:644)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.doWrite(ChunkedOutputFilter.java:123)
+	at org.apache.coyote.http11.filters.GzipOutputFilter$FakeOutputStream.write(GzipOutputFilter.java:188)
+	at java.util.zip.DeflaterOutputStream.deflate(DeflaterOutputStream.java:253)
+	at java.util.zip.DeflaterOutputStream.write(DeflaterOutputStream.java:211)
+	at java.util.zip.GZIPOutputStream.write(GZIPOutputStream.java:145)
+	at org.apache.coyote.http11.filters.GzipOutputFilter.doWrite(GzipOutputFilter.java:89)
+	at org.apache.coyote.http11.Http11OutputBuffer.doWrite(Http11OutputBuffer.java:235)
+	at org.apache.coyote.Response.doWrite(Response.java:541)
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:351)
+	... 56 common frames omitted
+2018.06.19 10:31:34 ERROR web[][o.s.s.p.w.RootFilter] Processing of request /js/vendor.c4ad594b.js failed
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: Broken pipe
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:356)
+	at org.apache.catalina.connector.OutputBuffer.flushByteBuffer(OutputBuffer.java:815)
+	at org.apache.catalina.connector.OutputBuffer.append(OutputBuffer.java:720)
+	at org.apache.catalina.connector.OutputBuffer.writeBytes(OutputBuffer.java:391)
+	at org.apache.catalina.connector.OutputBuffer.write(OutputBuffer.java:369)
+	at org.apache.catalina.connector.CoyoteOutputStream.write(CoyoteOutputStream.java:96)
+	at org.apache.catalina.servlets.DefaultServlet.copyRange(DefaultServlet.java:2323)
+	at org.apache.catalina.servlets.DefaultServlet.copy(DefaultServlet.java:2153)
+	at org.apache.catalina.servlets.DefaultServlet.serveResource(DefaultServlet.java:1014)
+	at org.apache.catalina.servlets.DefaultServlet.doGet(DefaultServlet.java:438)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.apache.catalina.servlets.DefaultServlet.service(DefaultServlet.java:418)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.sonar.server.platform.web.WebPagesFilter.doFilter(WebPagesFilter.java:66)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.sonar.server.platform.web.MasterServletFilter$GodFilterChain.doFilter(MasterServletFilter.java:128)
+	at org.sonar.server.platform.web.MasterServletFilter.doFilter(MasterServletFilter.java:95)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.sonar.server.user.UserSessionFilter.doFilter(UserSessionFilter.java:87)
+	at org.sonar.server.user.UserSessionFilter.doFilter(UserSessionFilter.java:71)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.sonar.server.platform.web.SecurityServletFilter.doHttpFilter(SecurityServletFilter.java:72)
+	at org.sonar.server.platform.web.SecurityServletFilter.doFilter(SecurityServletFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.sonar.server.platform.web.RedirectFilter.doFilter(RedirectFilter.java:61)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.sonar.server.platform.web.requestid.RequestIdFilter.doFilter(RequestIdFilter.java:63)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.sonar.server.platform.web.RootFilter.doFilter(RootFilter.java:62)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at ch.qos.logback.access.tomcat.LogbackValve.invoke(LogbackValve.java:256)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:134)
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:157)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1267)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:670)
+	at org.apache.tomcat.util.net.SocketWrapperBase.writeBlocking(SocketWrapperBase.java:450)
+	at org.apache.tomcat.util.net.SocketWrapperBase.write(SocketWrapperBase.java:388)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.doWrite(Http11OutputBuffer.java:644)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.doWrite(ChunkedOutputFilter.java:123)
+	at org.apache.coyote.http11.filters.GzipOutputFilter$FakeOutputStream.write(GzipOutputFilter.java:188)
+	at java.util.zip.DeflaterOutputStream.deflate(DeflaterOutputStream.java:253)
+	at java.util.zip.DeflaterOutputStream.write(DeflaterOutputStream.java:211)
+	at java.util.zip.GZIPOutputStream.write(GZIPOutputStream.java:145)
+	at org.apache.coyote.http11.filters.GzipOutputFilter.doWrite(GzipOutputFilter.java:89)
+	at org.apache.coyote.http11.Http11OutputBuffer.doWrite(Http11OutputBuffer.java:235)
+	at org.apache.coyote.Response.doWrite(Response.java:541)
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:351)
+	... 57 common frames omitted
+2018.06.19 10:31:34 ERROR web[][o.s.s.p.w.RootFilter] Processing of request /fonts/sonar-5.2.woff? failed
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: Broken pipe
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:356)
+	at org.apache.catalina.connector.OutputBuffer.appendByteArray(OutputBuffer.java:785)
+	at org.apache.catalina.connector.OutputBuffer.append(OutputBuffer.java:714)
+	at org.apache.catalina.connector.OutputBuffer.writeBytes(OutputBuffer.java:391)
+	at org.apache.catalina.connector.OutputBuffer.write(OutputBuffer.java:369)
+	at org.apache.catalina.connector.CoyoteOutputStream.write(CoyoteOutputStream.java:96)
+	at org.apache.catalina.connector.CoyoteOutputStream.write(CoyoteOutputStream.java:89)
+	at org.apache.catalina.servlets.DefaultServlet.serveResource(DefaultServlet.java:1007)
+	at org.apache.catalina.servlets.DefaultServlet.doGet(DefaultServlet.java:438)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.apache.catalina.servlets.DefaultServlet.service(DefaultServlet.java:418)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.sonar.server.platform.web.WebPagesFilter.doFilter(WebPagesFilter.java:66)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.sonar.server.platform.web.MasterServletFilter$GodFilterChain.doFilter(MasterServletFilter.java:128)
+	at org.sonar.server.platform.web.MasterServletFilter.doFilter(MasterServletFilter.java:95)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.sonar.server.user.UserSessionFilter.doFilter(UserSessionFilter.java:87)
+	at org.sonar.server.user.UserSessionFilter.doFilter(UserSessionFilter.java:71)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.sonar.server.platform.web.SecurityServletFilter.doHttpFilter(SecurityServletFilter.java:72)
+	at org.sonar.server.platform.web.SecurityServletFilter.doFilter(SecurityServletFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.sonar.server.platform.web.RedirectFilter.doFilter(RedirectFilter.java:61)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.sonar.server.platform.web.requestid.RequestIdFilter.doFilter(RequestIdFilter.java:63)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.sonar.server.platform.web.RootFilter.doFilter(RootFilter.java:62)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at ch.qos.logback.access.tomcat.LogbackValve.invoke(LogbackValve.java:256)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:134)
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:157)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1267)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:670)
+	at org.apache.tomcat.util.net.SocketWrapperBase.writeBlocking(SocketWrapperBase.java:450)
+	at org.apache.tomcat.util.net.SocketWrapperBase.write(SocketWrapperBase.java:388)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.doWrite(Http11OutputBuffer.java:644)
+	at org.apache.coyote.http11.filters.IdentityOutputFilter.doWrite(IdentityOutputFilter.java:119)
+	at org.apache.coyote.http11.Http11OutputBuffer.doWrite(Http11OutputBuffer.java:235)
+	at org.apache.coyote.Response.doWrite(Response.java:541)
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:351)
+	... 56 common frames omitted
