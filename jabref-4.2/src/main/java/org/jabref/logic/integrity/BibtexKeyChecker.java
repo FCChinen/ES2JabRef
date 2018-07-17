@@ -30,6 +30,17 @@ public class BibtexKeyChecker implements Checker {
                     Localization.lang("empty BibTeX key") + ": " + authorTitleYear, entry, BibEntry.KEY_FIELD));
         }
 
+        String authorString = entry.getField(FieldName.AUTHOR).toString();
+        String yearString = entry.getField(FieldName.YEAR).toString();
+        String titleString = entry.getField(FieldName.TITLE).toString().toUpperCase();
+
+        String expectedKey = authorString + yearString + titleString;
+
+        if (!entry.toString().equals(expectedKey)) {
+            return Collections.singletonList(new IntegrityMessage(
+                    Localization.lang("Invalid BibTexKey"), entry, BibEntry.KEY_FIELD));
+        }
+
         return Collections.emptyList();
     }
 }
