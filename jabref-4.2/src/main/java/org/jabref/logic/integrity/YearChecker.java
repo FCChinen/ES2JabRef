@@ -25,26 +25,20 @@ public class YearChecker implements ValueChecker {
     @Override
     public Optional<String> checkValue(String value) {
 
-        Calendar calendarInstance = Calendar.getInstance();
-        calendarInstance.setLenient(false);
-
+        int todayYear = Calendar.getInstance().get(Calendar.YEAR);
         if (StringUtil.isBlank(value)) {
             return Optional.empty();
         }
 
+        if ((Integer.parseInt(value) > todayYear) || (Integer.parseInt(value) < 1700)) {
+            return Optional.of(Localization.lang("Ano inválido"));
+        }
         if (!CONTAINS_FOUR_DIGIT.test(value.trim())) {
             return Optional.of(Localization.lang("should contain a four digit number"));
         }
 
         if (!ENDS_WITH_FOUR_DIGIT.test(value.replaceAll(PUNCTUATION_MARKS, ""))) {
             return Optional.of(Localization.lang("last four nonpunctuation characters should be numerals"));
-        }
-
-        calendarInstance.set(Calendar.YEAR, Integer.parseInt(value));
-        try {
-            calendarInstance.get(Calendar.YEAR);
-        } catch (Exception e) {
-            return Optional.of(Localization.lang("Ano inválido"));
         }
 
         return Optional.empty();
